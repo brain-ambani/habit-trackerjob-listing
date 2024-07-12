@@ -52,7 +52,7 @@ export default async function JobFilterSidebar() {
           <div className="flex flex-col gap-2">
             <Label htmlFor="type">Type</Label>
             <Select id="type" name="type" defaultValue="">
-              <option value="">All locations</option>
+              <option value="">All Types</option>
               {JobTypes.map((type) => (
                 <option key={type} value={type}>
                   {type}
