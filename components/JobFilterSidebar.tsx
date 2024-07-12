@@ -7,8 +7,6 @@ import { Button } from "./ui/button";
 
 async function filterJobs(formData: FormData) {
   "use server";
-
-  console.log(formData.get("q") as string);
 }
 
 export default async function JobFilterSidebar() {
